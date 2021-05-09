@@ -3,12 +3,11 @@
    // $username = "root";
    // $password_for_database = "root";
    // $databaseName = "formdb";
-$servername = "remotemysql.com";
+/*$servername = "remotemysql.com";
 $username = "6016Mh2s15";
 $password_for_database = "A4LWbiN4cm";
 $dbpass="6016Mh2s15";
     
-    // get values form input text and number
 
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
@@ -32,7 +31,8 @@ $dbpass="6016Mh2s15";
 	echo connect->error;
 	}
     $connect->close();
-
+*/
+echo "checking";
 
 ?>
 
