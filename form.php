@@ -1,8 +1,12 @@
 <?php
-    $Servername = "localhost";
-    $username = "root";
-    $password_for_database = "root";
-    $databaseName = "formdb";
+   // $Servername = "localhost";
+   // $username = "root";
+   // $password_for_database = "root";
+   // $databaseName = "formdb";
+$servername = "remotemysql.com";
+$username = "6016Mh2s15";
+$password = "A4LWbiN4cm";
+$dbpass="6016Mh2s15";
     
     // get values form input text and number
 
