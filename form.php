@@ -20,7 +20,7 @@ $dbpass="6016Mh2s15";
     $confirm_password= $_POST['confirm_password'];
     $connect = new  mysqli($Servername, $username, $password_for_database, $dbpass);
     $query = "INSERT INTO formtable VALUES ('".$fname."','".$lname."','".$Address."','".$age."','".$gender."','".$marital_status."','".$email."','".$password."','".$confirm_password."')";
-echo $query;
+
     if($connect->query($query)===TRUE)
         $res=$connect->query("select * from formtable where Email='".$email."'");
 	if($res->num_rows>0){
