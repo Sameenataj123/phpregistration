@@ -18,7 +18,7 @@ $dbpass="6016Mh2s15";
     $email= $_POST['email'];
     $password= $_POST['password'];
     $confirm_password= $_POST['confirm_password'];
-    $connect = new  mysqli($Servername, $username, $password_for_database, $dbpass);
+    $connect = new  mysqli($servername, $username, $password_for_database, $dbpass);
     $query = "INSERT INTO formtable VALUES ('".$fname."','".$lname."','".$Address."','".$age."','".$gender."','".$marital_status."','".$email."','".$password."','".$confirm_password."')";
 
     if($connect->query($query)===TRUE)
