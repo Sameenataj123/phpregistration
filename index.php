@@ -17,7 +17,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<style>.row{margin:10px;} *{font-family:garamond;font-weight:bold;}</style>
+	    <style>.row{margin:10px;} *{font-family:garamond;font-weight:bold;}.col-4{text-align:left;}</style>
     </head>
 
     <body style="background-color:#f08080;">
@@ -25,7 +25,7 @@
         <form action="form.php" method="post">
 	<center>
 	<h1><u>Registration Form</u></h1><br><br>
-	<div style="width:100vh;">
+	<div style="width:100vh;border:2px solid black;">
 	<div class="container">
 	
 	<div class="row">
