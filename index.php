@@ -24,7 +24,7 @@
          
         <form action="form.php" method="post">
 	<h1><u>Registration Form</u></h1><br><br>
-	<div id="box" style="width:100vh;border:2px solid black;">
+	<div id="box" >
 	<div class="container">
 	
 	<div class="row">
