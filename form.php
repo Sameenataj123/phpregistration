@@ -25,7 +25,7 @@ $dbpass="6016Mh2s15";
         $res=$connect->query("select * from formtable where Email='".$email."'");
 	if($res->num_rows>0){
 	while($row=$res->fetch_assoc())
-	echo $row['FirstName']." ".$row['LastName']." ".$row['Address']." ".$row['DOB']." ".$row['Gender']." ".$row['Martial Status']." ".$row['Email']." ".$row['PassWord']." ".$row['Confrim Password'];
+	echo $row['FirstName']." ".$row['LastName']."<br>".$row['Address']."<br> ".$row['DOB']."<br> ".$row['Gender']."<br> ".$row['Martial Status']."<br> ".$row['Email']."<br> ".$row['PassWord']."<br> ".$row['Confrim Password'];
 }
     else{
         echo 'registration failed';
