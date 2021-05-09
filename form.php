@@ -5,7 +5,7 @@
    // $databaseName = "formdb";
 $servername = "remotemysql.com";
 $username = "6016Mh2s15";
-$password = "A4LWbiN4cm";
+$password_for_database = "A4LWbiN4cm";
 $dbpass="6016Mh2s15";
     
     // get values form input text and number
@@ -19,7 +19,7 @@ $dbpass="6016Mh2s15";
     $email= $_POST['email'];
     $password= $_POST['password'];
     $confirm_password= $_POST['confirm_password'];
-    $connect = new  mysqli($Servername, $username, $password_for_database, $databaseName);
+    $connect = new  mysqli($Servername, $username, $password_for_database, $dbpass);
     $query = "INSERT INTO formtable VALUES ('".$fname."','".$lname."','".$Address."','".$age."','".$gender."','".$marital_status."','".$email."','".$password."','".$confirm_password."')";
     if($connect->query($query)===TRUE)
         $res=$connect->query("select * from formtable where Email='".$email."'");
