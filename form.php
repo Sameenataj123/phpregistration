@@ -3,7 +3,7 @@
    // $username = "root";
    // $password_for_database = "root";
    // $databaseName = "formdb";
-/*$servername = "remotemysql.com";
+$servername = "remotemysql.com";
 $username = "6016Mh2s15";
 $password_for_database = "A4LWbiN4cm";
 $dbpass="6016Mh2s15";
@@ -20,7 +20,8 @@ $dbpass="6016Mh2s15";
     $confirm_password= $_POST['confirm_password'];
     $connect = new  mysqli($Servername, $username, $password_for_database, $dbpass);
     $query = "INSERT INTO formtable VALUES ('".$fname."','".$lname."','".$Address."','".$age."','".$gender."','".$marital_status."','".$email."','".$password."','".$confirm_password."')";
-    if($connect->query($query)===TRUE)
+echo $connect->query($query);
+    /*if($connect->query($query)===TRUE)
         $res=$connect->query("select * from formtable where Email='".$email."'");
 	if($res->num_rows>0){
 	while($row=$res->fetch_assoc())
@@ -29,10 +30,8 @@ $dbpass="6016Mh2s15";
     else{
         echo 'registration failed';
 	echo connect->error;
-	}
+	}*/
     $connect->close();
-*/
-echo "checking";
 
 ?>
 
