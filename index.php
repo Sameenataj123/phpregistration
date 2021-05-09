@@ -23,7 +23,6 @@
     <body style="background-color:#f08080;">
          
         <form action="form.php" method="post">
-	<center>
 	<h1><u>Registration Form</u></h1><br><br>
 	<div id="box" style="width:100vh;border:2px solid black;">
 	<div class="container">
@@ -68,7 +67,6 @@
             
             
             </div></div>
-	</center>
         </form>
     </body>
 
